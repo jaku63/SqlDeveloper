@@ -1,0 +1,21 @@
+--------------------------------------------------------
+--  DDL for Table CL_PRACTICE_PHASE
+--------------------------------------------------------
+
+  CREATE TABLE "CL_PRACTICE_PHASE" 
+   (	"ID" NUMBER, 
+	"CL_PRACTICE_ID" NUMBER, 
+	"PHASE_SEQ_NO" NUMBER, 
+	"DESCRIPTION" VARCHAR2(120 BYTE), 
+	"C_PHASE_ID" NUMBER, 
+	"C_MATERIAL_TAB_ID" NUMBER, 
+	"DURATION" NUMBER, 
+	"END_TEMPERATURE" NUMBER, 
+	"GAS_FLOW" NUMBER, 
+	"GAS_FLOW_HIGH" NUMBER, 
+	"GAS_FLOW_LOW" NUMBER, 
+	"DISABLED" NUMBER, 
+	"CREATED" DATE, 
+	"MODIFIED" DATE, 
+	"MOP" VARCHAR2(120 BYTE)
+   ) ;

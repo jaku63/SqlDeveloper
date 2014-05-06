@@ -1,0 +1,3 @@
+REM INSERTING into C_HMI_PROFILE
+SET DEFINE OFF;
+Insert into C_HMI_PROFILE (ID,NAME,C_HMI_DIALOG_ID,CREATED,MODIFIED,MOP) values (1,'Administrator',1,null,null,null);

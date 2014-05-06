@@ -1,0 +1,9 @@
+REM INSERTING into C_EQUIPMENT_COUNTER
+SET DEFINE OFF;
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (74689,'HeatCount','Number of heats processed',to_date('2014-02-07 14:35:07','YYYY-MM-DD HH24:MI:SS'),to_date('2014-02-13 08:21:00','YYYY-MM-DD HH24:MI:SS'),'SQL Developer');
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (74690,'SteelWeight','Processed steel weight',to_date('2014-02-07 14:35:07','YYYY-MM-DD HH24:MI:SS'),to_date('2014-02-13 08:21:00','YYYY-MM-DD HH24:MI:SS'),'SQL Developer');
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (74691,'TimeSteel','Time when steel is in contact',to_date('2014-02-07 14:35:07','YYYY-MM-DD HH24:MI:SS'),to_date('2014-02-13 08:22:22','YYYY-MM-DD HH24:MI:SS'),'SQL Developer');
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (74692,'TimePowerOn','Time when power is on',to_date('2014-02-07 14:36:32','YYYY-MM-DD HH24:MI:SS'),null,'SQL Developer');
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (75001,'TimeHotMetal','Time hot metal in contact (applicable for hot metal ladles)',to_date('2014-02-13 08:21:00','YYYY-MM-DD HH24:MI:SS'),to_date('2014-02-13 08:22:22','YYYY-MM-DD HH24:MI:SS'),'SQL Developer');
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (75002,'TimeVacuum','Time vacuum degassing',to_date('2014-02-13 08:23:00','YYYY-MM-DD HH24:MI:SS'),to_date('2014-02-13 14:20:58','YYYY-MM-DD HH24:MI:SS'),'SQL Developer');
+Insert into C_EQUIPMENT_COUNTER (ID,COUNTER_NAME,DESCRIPTION,CREATED,MODIFIED,MOP) values (75017,'VacuumCount','Number of vacuuing',to_date('2014-02-13 08:45:36','YYYY-MM-DD HH24:MI:SS'),null,'SQL Developer');

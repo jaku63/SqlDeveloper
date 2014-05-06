@@ -1,0 +1,26 @@
+--------------------------------------------------------
+--  DDL for Table PC_STRAND
+--------------------------------------------------------
+
+  CREATE TABLE "PC_STRAND" 
+   (	"ID" NUMBER, 
+	"STRAND_NO" NUMBER DEFAULT 0, 
+	"STRAND_STATUS" NUMBER, 
+	"CASTING" NUMBER DEFAULT 0, 
+	"CAST_SPEED" FLOAT(126), 
+	"CAST_LENGTH" FLOAT(126), 
+	"TAILOUT_LENGTH" FLOAT(126), 
+	"STRAND_LENGTH" FLOAT(126), 
+	"CREATED" DATE, 
+	"MODIFIED" DATE, 
+	"MOP" VARCHAR2(120 BYTE), 
+	"CAST_SPEED_SETP" NUMBER
+   ) ;
+
+   COMMENT ON COLUMN "PC_STRAND"."STRAND_NO" IS 'Strand no';
+   COMMENT ON COLUMN "PC_STRAND"."STRAND_STATUS" IS 'Operating mode (from L1)';
+   COMMENT ON COLUMN "PC_STRAND"."CASTING" IS 'Is currently casting 0/1';
+   COMMENT ON COLUMN "PC_STRAND"."CAST_SPEED" IS 'Unit [m/s] : ';
+   COMMENT ON COLUMN "PC_STRAND"."CAST_LENGTH" IS 'Unit [m] : ';
+   COMMENT ON COLUMN "PC_STRAND"."TAILOUT_LENGTH" IS 'Unit [m] : ';
+   COMMENT ON COLUMN "PC_STRAND"."STRAND_LENGTH" IS 'Unit [m] : ';

@@ -1,0 +1,35 @@
+--------------------------------------------------------
+--  DDL for Table CE_PRACTICE_PHASE
+--------------------------------------------------------
+
+  CREATE TABLE "CE_PRACTICE_PHASE" 
+   (	"ID" NUMBER, 
+	"CE_PRACTICE_ID" NUMBER, 
+	"PHASE_SEQ_NO" NUMBER, 
+	"C_PHASE_ID" NUMBER, 
+	"BASKET" NUMBER, 
+	"HOT_METAL" NUMBER, 
+	"DRI" NUMBER, 
+	"MIN_DURATION" NUMBER, 
+	"START_SPEC_ENERGY" NUMBER, 
+	"START_ENERGY" NUMBER, 
+	"END_TEMPERATURE" NUMBER, 
+	"END_WEIGHT" NUMBER, 
+	"C_MATERIAL_TAB_ID" NUMBER, 
+	"CREATED" DATE, 
+	"MODIFIED" DATE, 
+	"MOP" VARCHAR2(120 BYTE)
+   ) ;
+
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."CE_PRACTICE_ID" IS 'Practice id';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."PHASE_SEQ_NO" IS 'Phase sequence number';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."C_PHASE_ID" IS 'Phase id';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."BASKET" IS 'Number of basket expected in the phase';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."HOT_METAL" IS 'Number of hot metal expected in the phase';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."DRI" IS 'Dri expected in the phas [0/1]';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."MIN_DURATION" IS 'Minimum phase duration';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."START_SPEC_ENERGY" IS 'Start phase specific energy [kWh/t]';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."START_ENERGY" IS 'Start phase el. energy [kWh]';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."END_TEMPERATURE" IS 'End phase temperature';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."END_WEIGHT" IS 'End phase weight';
+   COMMENT ON COLUMN "CE_PRACTICE_PHASE"."C_MATERIAL_TAB_ID" IS 'Material tab id';
